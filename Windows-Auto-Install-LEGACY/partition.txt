@@ -1,0 +1,7 @@
+select disk %disknum%
+clean
+conv mbr
+cre par pri 
+form quick
+assign letter W
+active
