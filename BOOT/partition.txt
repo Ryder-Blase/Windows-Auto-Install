@@ -1,9 +1,0 @@
-select disk %disknum%
-clean
-conv gpt
-cre par efi size=512
-form quick fs=fat32
-assign letter Z
-cre par pri
-form quick
-assign letter W
